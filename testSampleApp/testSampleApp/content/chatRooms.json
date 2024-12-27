@@ -1,0 +1,56 @@
+{
+  "chatrooms": [
+    {
+      "id": "1",
+      "name": "General Chat",
+      "participants": [
+        { "id": "user1", "name": "Alice" },
+        { "id": "user2", "name": "Bob" },
+        { "id": "user3", "name": "Charlie" }
+      ],
+      "messages": [
+        {
+          "id": "msg1",
+          "senderId": "user1",
+          "content": "Hello everyone!",
+          "timestamp": "2024-12-21T10:00:00Z"
+        },
+        {
+          "id": "msg2",
+          "senderId": "user2",
+          "content": "Hi Alice!",
+          "timestamp": "2024-12-21T10:01:00Z"
+        }
+      ],
+      "lastMessage": {
+        "id": "msg2",
+        "senderId": "user2",
+        "content": "Hi Alice!",
+        "timestamp": "2024-12-21T10:01:00Z"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Project Team",
+      "participants": [
+        { "id": "user2", "name": "Bob" },
+        { "id": "user4", "name": "Diana" },
+        { "id": "user5", "name": "Eve" }
+      ],
+      "messages": [
+        {
+          "id": "msg3",
+          "senderId": "user4",
+          "content": "Are we ready for the presentation?",
+          "timestamp": "2024-12-21T09:30:00Z"
+        }
+      ],
+      "lastMessage": {
+        "id": "msg3",
+        "senderId": "user4",
+        "content": "Are we ready for the presentation?",
+        "timestamp": "2024-12-21T09:30:00Z"
+      }
+    }
+  ]
+}
