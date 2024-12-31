@@ -2,7 +2,6 @@
 //  ChatroomList.swift
 //  testSampleApp
 //
-//  Created by Softsuave-iOS dev on 27/12/24.
 //
 
 
@@ -18,6 +17,8 @@ struct Chatroom: Codable {
     let participants: [Participant]
     let messages: [Message]
     let lastMessage: Message
+    let thumbnailUrl: String
+    let unreadMessageCount: Int
 }
 
 struct Participant: Codable {
